@@ -45,14 +45,16 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
    ```
 
 3. **Build and start the services using Docker Compose**:
-   -Order Service: http://localhost:3000
+
+-Order Service: http://localhost:3000
 
 -Inventory Service: http://localhost:3001
 
 -RabbitMQ Dashboard: http://localhost:15672 (Login: guest / Password: guest)
 
 4. **Build and start the services using Docker Compose**:
-   -Create an order (POST request):
+
+-Create an order (POST request):
    ```bash
    curl -X POST http://localhost:3000/orders -H "Content-Type: application/json" -d '{"productId":"123", "quantity":2}'
    ```
