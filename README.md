@@ -39,7 +39,10 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
    ```
 
 2. **Build and start the services using Docker Compose**:
+
+```bash
    docker-compose up --build
+```
 
 3. **Build and start the services using Docker Compose**:
    -Order Service: http://localhost:3000
@@ -50,12 +53,22 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
 
 4. **Build and start the services using Docker Compose**:
    -Create an order (POST request):
+   ```bash
    curl -X POST http://localhost:3000/orders -H "Content-Type: application/json" -d '{"productId":"123", "quantity":2}'
+   ```
 
 -Check orders (GET request):
+
+```bash
 curl http://localhost:3000/orders
+```
 
 -Check inventory stock (GET request):
+
+```bash
+   docker-compose up --build
+```
+
 curl http://localhost:3001/inventory/123
 
 License
