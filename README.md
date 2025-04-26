@@ -72,6 +72,18 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
    curl http://localhost:3001/inventory/123
    ```
 
+## 📸 Postman Tests
+
+### 1. Create Order (POST /orders)
+
+![Create Order](assets/post-order.png)
+
+---
+
+### 2. Check Inventory (GET /inventory/:productId)
+
+![Check Inventory](assets/get-inventory.png)
+
 
 License
 This project is licensed under the MIT License.
