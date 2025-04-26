@@ -66,11 +66,9 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
 -Check inventory stock (GET request):
 
     ```bash
+    curl http://localhost:3001/inventory/123
+    ```
 
-docker-compose up --build
-```
-
-curl http://localhost:3001/inventory/123
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
