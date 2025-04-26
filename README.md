@@ -52,25 +52,26 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
 
 -RabbitMQ Dashboard: http://localhost:15672 (Login: guest / Password: guest)
 
-4. **Build and start the services using Docker Compose**:
+3. **Build and start the services using Docker Compose**:
 
--Create an order (POST request):
+- Create an order (POST request):
+
    ```bash
    curl -X POST http://localhost:3000/orders -H "Content-Type: application/json" -d '{"productId":"123", "quantity":2}'
    ```
 
--Check orders (GET request):
+- Check orders (GET request):
 
-    ```bash
-    curl http://localhost:3000/orders
-    ```
+   ```bash
+   curl http://localhost:3000/orders
+   ```
 
--Check inventory stock (GET request):
+- Check inventory stock (GET request):
 
-    ```bash
-    curl http://localhost:3001/inventory/123
-    ```
+   ```bash
+   curl http://localhost:3001/inventory/123
+   ```
 
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
