@@ -40,9 +40,9 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
 
 2. **Build and start the services using Docker Compose**:
 
-```bash
+   ```bash
    docker-compose up --build
-```
+   ```
 
 3. **Build and start the services using Docker Compose**:
    -Order Service: http://localhost:3000
@@ -59,14 +59,15 @@ The application is built using **Node.js**, **Express.js**, **MongoDB**, **Rabbi
 
 -Check orders (GET request):
 
-```bash
-curl http://localhost:3000/orders
-```
+    ```bash
+    curl http://localhost:3000/orders
+    ```
 
 -Check inventory stock (GET request):
 
-```bash
-   docker-compose up --build
+    ```bash
+
+docker-compose up --build
 ```
 
 curl http://localhost:3001/inventory/123
